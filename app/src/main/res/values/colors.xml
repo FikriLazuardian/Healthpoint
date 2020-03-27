@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5b9bd5</color>
+    <color name="colorPrimaryDark">#5b9bd5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButtonUpload">#ff0000</color>
+    <color name="select_image">#88094578</color>
+    <color name="done_button_bg">#FFFFFF</color>
+    <color name="done_button_text">#094578</color>
+    <color name="background">#FFFFFF</color>
+    <color name="bottom_album_bg">#cc094578</color>
+</resources>

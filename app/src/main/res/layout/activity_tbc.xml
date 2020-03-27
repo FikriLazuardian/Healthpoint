@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tbc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input Data TBC"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"/>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spinbatuk"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah batuk disertai gejala :"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk1"
+                android:text="Berdahak"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk2"
+                android:text="Darah/dahak campur darah"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk3"
+                android:text="Demam"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk4"
+                android:text="Nyeri dada"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk5"
+                android:text="Sesak nafas"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk6"
+                android:text="Berkeringat malam hari tanpa kegiatan fisik"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk7"
+                android:text="nafsu makan menurun"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbbatuk8"
+                android:text="Berat badan menurun/sulit bertambah"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spintb"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah sudah pernah diperiksakan ke dokter?"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/periksadokter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ya"
+                    android:layout_marginRight="50dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tdkperiksadokter"
+                    android:text="Tidak"/>
+            </RadioGroup>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spintbperiksa"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spintbobat"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textAlignment="textStart"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spintbsembuh"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+
+            <Button
+                android:id="@+id/btnSubmit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundedbtn2"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
