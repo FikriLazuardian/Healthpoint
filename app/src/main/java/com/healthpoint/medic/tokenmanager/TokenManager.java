@@ -9,7 +9,7 @@ import com.healthpoint.medic.model.AccessToken;
 
 
 public class TokenManager {
-    private static final String TAG = "TokenManager";
+   private static final String TAG = "TokenManager";
    private SharedPreferences prefs;
    private SharedPreferences.Editor editor;
 

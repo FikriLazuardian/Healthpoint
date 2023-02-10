@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:id="@+id/btnImagePantau"
-        android:layout_below="@id/imgPantau"
+        android:layout_below="@+id/imgPantau"
         android:background="@color/colorButtonUpload"
         android:textColor="@color/cardview_light_background"
         android:layout_alignParentLeft="true"
